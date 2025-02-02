@@ -46,6 +46,40 @@ export default function Analytics() {
         {/* Main content below header */}
         <main className="p-6 pt-20">
           <h2 className="text-2xl font-semibold mb-4">Analytics Page</h2>
+          <p>Overview
+
+              The Analytics page provides key insights into user activity, business performance, and engagement trends. It features visually appealing data representations, making it easy to track progress and make data-driven decisions.
+              Key Features
+              📊 Summary of Key Metrics
+
+              A compact overview of crucial performance indicators, such as:
+
+                  Total Users: The number of active users over a given period.
+                  Engagement Rate: A measure of how frequently users interact with the platform.
+                  Conversion Rate: The percentage of users completing key actions.
+                  Revenue Trends: A quick snapshot of earnings and growth.
+
+              📈 Data Visualization
+
+              To enhance user experience, the Analytics page includes interactive charts with dummy data, offering valuable insights at a glance:
+
+                  Bar Chart: Represents revenue trends over time.
+                  Pie Chart: Displays user activity distribution (e.g., Morning, Afternoon, Evening).
+                  Line Chart: Tracks order trends and variations in engagement.
+                  Geo Chart: Highlights user locations and regional performance (optional).
+
+              📌 Recent Activity Log
+
+              A dynamic feed showcasing the latest user actions, such as:
+
+                  Recent sign-ups or logins.
+                  Transactions or purchases made.
+                  Feature interactions (e.g., settings updates, dashboard visits).
+
+              📱 Responsive & Interactive Design
+
+              The Analytics page is fully responsive, ensuring a seamless experience across desktop, tablet, and mobile devices. The charts and data points update dynamically to enhance readability and usability.
+          </p>
           {/* You can add more content here */}
         </main>
       </div>

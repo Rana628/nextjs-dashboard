@@ -47,6 +47,44 @@ export default function Analytics() {
         {/* Main content below header */}
         <main className="p-6 pt-20">
           <h2 className="text-2xl font-semibold mb-4">User Profile</h2>
+          <p>
+          Overview
+
+                The User Profile page allows users to view and manage their personal details, account settings, and activity history in one place. It features a clean and intuitive interface for seamless profile management.
+                Key Features
+                👤 Personal Information
+
+                Users can update and view their profile details, including:
+
+                    Profile Picture: Upload or change the profile picture.
+                    Full Name: Edit display name.
+                    Email Address: View or update the registered email.
+                    Phone Number: Add or modify contact details.
+                    Bio: Write a short description about themselves.
+
+                📅 Recent Activity
+
+                A quick overview of the latest user interactions on the dashboard, such as:
+
+                    Last Login Details: Date, time, and device used.
+                    Recent Transactions: List of recent purchases or subscriptions.
+                    Feature Usage: Actions like settings updates, analytics visits, etc.
+
+                🔒 Privacy & Security
+
+                Users can manage their security settings directly from their profile, including:
+
+                    Change Password: Secure their account with a new password.
+                    Two-Factor Authentication (2FA): Enable an extra layer of protection.
+                    Manage Connected Devices: View and log out from active sessions.
+
+                🎨 Profile Customization
+
+                Users can personalize their experience with:
+
+                    Theme Preferences: Toggle between light and dark mode.
+                    Dashboard Layout Settings: Customize widgets and content visibility.
+          </p>
           {/* You can add more content here */}
         </main>
       </div>

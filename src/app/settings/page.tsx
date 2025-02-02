@@ -47,6 +47,42 @@ export default function Analytics() {
         {/* Main content below header */}
         <main className="p-6 pt-20">
           <h2 className="text-2xl font-semibold mb-4">Settings</h2>
+          <p>
+          Overview
+
+                The Settings page allows users to personalize their dashboard experience by managing account preferences, notifications, and security settings. It provides a user-friendly interface with easy-to-use controls for seamless customization.
+                Key Features
+                👤 Account Settings
+
+                Users can update their personal details, including:
+
+                    Profile Picture: Upload or change the profile picture.
+                    Username & Email: Edit display name and contact email.
+                    Language Preferences: Choose a preferred language for the dashboard.
+
+                🔔 Notification Preferences
+
+                Users can control how they receive updates by toggling notification settings:
+
+                    Email Notifications: Receive alerts for activity, updates, and reminders.
+                    Push Notifications: Enable or disable push notifications on different devices.
+                    Activity Alerts: Get notified about login attempts, purchases, or account changes.
+
+                🔒 Security & Privacy
+
+                Ensuring user data safety is a priority. Users can:
+
+                    Change Password: Update their password with security guidelines.
+                    Two-Factor Authentication (2FA): Enable or disable additional login security.
+                    Login History: View recent logins and recognize any unauthorized access.
+
+                🎨 Appearance & Theme
+
+                Users can personalize the dashboard’s look and feel by choosing:
+
+                    Light / Dark Mode: Toggle between light and dark themes.
+                    Custom Color Schemes: Select a preferred color palette for the interface.
+          </p>
           {/* You can add more content here */}
         </main>
       </div>
